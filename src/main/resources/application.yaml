@@ -1,7 +1,8 @@
 ---
 server.port: 8889
 java.version: 1.8
-
+spring.mvc.view.prefix: /templates/jsp/
+spring.mvc.view.suffix: .jsp
 ---
 spring.profiles: dev
 
